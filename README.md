@@ -1,3 +1,4 @@
+[![](https://images.microbadger.com/badges/image/mariobarbareschi/stm32-compiler.svg)](https://microbadger.com/images/mariobarbareschi/stm32-compiler "Get your own image badge on microbadger.com")
 # stm32-compiler-docker
 A Docker image project for compiling STM32 C/C++ projects (currently, this supports STM32F4 only)
 
