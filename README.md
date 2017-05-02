@@ -4,11 +4,11 @@ A Docker image project for compiling STM32 C/C++ projects (currently, this suppo
 
 ## About ##
 This project aims to define a Docker image which all you need to compile embedded software for STM32F4 devices and develop applications by means of cross-compilation.
-It uses the GNU ARM GCC compiler suite, installed over the Ubuntu 16.04, and the CMake project developed by ObKo, the (stm32-cmake)[https://github.com/ObKo/stm32-cmake]
+It uses the GNU ARM GCC compiler suite, installed over the Ubuntu 16.04, and the CMake project developed by ObKo, the [stm32-cmake](https://github.com/ObKo/stm32-cmake)
 Unfortunately, STMicroelectronics does not provide a direct repository from which we can download the CubeMX projects: at your disposal, in this repository, you have only the STM32F4 one.
 
 ## Requirements ##
-Do not worry about requirements: just install (Docker)[https://www.docker.com] for your operating system
+Do not worry about requirements: just install [Docker](https://www.docker.com) for your operating system
 
 ## How to get the docker image ##
 
