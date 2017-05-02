@@ -33,7 +33,7 @@ To have an interactive bash interface with the docker image, simply run
 This repository is released with some examples in the projects folder.
 Try them by share the folder project with the docker container as follows:
 
-docker run -it -v projects:~/projects mariobarbareschi/stm32-compiler
+    docker run -it -v projects:~/projects mariobarbareschi/stm32-compiler
 
 ### LICENSE ###
 --------
