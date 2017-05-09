@@ -27,13 +27,13 @@ Alternatively, if you feel very lazy, check the docker image by pulling it from 
 ## How to use the docker image ##
 To have an interactive bash interface with the docker image, simply run
 
-    docker run -it -v /path/to/host/folder:/path/to/container/folder mariobarbareschi/stm32-compiler
+    docker run -it -v /path/to/host/folder:/path/to/container/folder <name>
 
 ## RUN EXAMPLES ##
 This repository is released with some examples in the projects folder.
 Try them by share the folder project with the docker container as follows:
 
-    docker run -it -v projects:~/projects mariobarbareschi/stm32-compiler
+    docker run -it -v $PWD/projects:/home/embedded/projects mariobarbareschi/stm32-compiler
 
 ### LICENSE ###
 --------
