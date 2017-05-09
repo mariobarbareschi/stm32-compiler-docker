@@ -14,7 +14,7 @@ Do not worry about requirements: just install [Docker](https://www.docker.com) f
 
     git clone https://github.com/mariobarbareschi/stm32-compiler-docker
     cd stm32-compiler-docker
-    docker build . -t <name>
+    docker build . -t <NAME>
 
 Once completed, you should have a docker image named <name>, check it by running
 
@@ -27,7 +27,7 @@ Alternatively, if you feel very lazy, check the docker image by pulling it from 
 ## How to use the docker image ##
 To have an interactive bash interface with the docker image, simply run
 
-    docker run -it -v /path/to/host/folder:/path/to/container/folder <name>
+    docker run -it -v /path/to/host/folder:/path/to/container/folder <NAME>
 
 ## RUN EXAMPLES ##
 This repository is released with some examples in the projects folder.
