@@ -9,3 +9,6 @@ For having a practical usage of every example, within the docker image, you can 
 
 This example provides you a project involving GPIO and EXTI
 
+## STM32F4-USB_CDC
+
+This example implements a USB CDC device on the STM32F4 and sets the printf to work over the VCP port
