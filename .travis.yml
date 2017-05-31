@@ -8,6 +8,6 @@ before_install:
 - docker run -it -d -v $PWD/projects:/home/embedded/projects mariobarbareschi/stm32-compiler /bin/bash -c "cd ~/projects/stm32f4-blink; ./run_compilation.sh"
 script:
 - docker ps | grep -q mariobarbareschi/stm32-compiler
-after_install:
+after_script:
 - size $PWD/projects/stm32f4-blink/build/stm32f4-blink
 
