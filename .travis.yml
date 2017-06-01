@@ -5,8 +5,10 @@ services:
 before_install:
 - docker info
 - docker build -t mariobarbareschi/stm32-compiler .
+before_script:
 - docker run -it -d -v $PWD/projects:/home/embedded/projects mariobarbareschi/stm32-compiler /bin/bash -c "cd ~/projects/stm32f4-blink; ./run_compilation.sh"
 script:
 - docker ps | grep -q mariobarbareschi/stm32-compiler
+after_script:
 - size $PWD/projects/stm32f4-blink/build/stm32f4-blink
 
