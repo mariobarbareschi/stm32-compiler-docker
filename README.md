@@ -16,7 +16,7 @@ Do not worry about requirements: just install [Docker](https://www.docker.com) f
     cd stm32-compiler-docker
     docker build . -t <NAME>
 
-Once completed, you should have a docker image named <name>, check it by running
+Once completed, you should have a docker image named `<NAME>`, check it by running
 
     docker images
 
